@@ -1,0 +1,27 @@
+h1{color: red;}
+/*esto es un comentario */
+/*esto es un
+*comentario
+*multilineal
+*/
+
+/*buscar una buena paleta de colores en "https://colorhunt.co/palettes"*/
+
+
+/*body{background-color: white;}*/
+
+#icono-contacto{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+#col-izq{
+    width: 50%;
+    float: left;
+}
+
+#col-der{
+    width: 50%;
+    float: right;
+}
