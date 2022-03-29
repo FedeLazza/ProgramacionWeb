@@ -25,3 +25,8 @@ h1{color: red;}
     width: 50%;
     float: right;
 }
+
+footer{
+    position: fixed;
+    bottom: 0px;
+}
