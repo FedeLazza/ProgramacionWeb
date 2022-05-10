@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ejemplo de JS</title>
+</head>
+<body>
+
+    <script>//comentrio de js
+    /*
+    *esto es un
+    *coment
+    * multilinea
+    */ 
+        let nombre = "esteban"
+        const edad = 29
+        edad = edad + 1
+
+
+
+        document.write('La web de Steve');
+        console.log("No deberias leer esto")
+
+    // variable espacio donde se almacena un valor. un cajon
+    // como armo una variable. let
+    //let nombrevariable = valor
+
+    /* tipos de datos:
+    numericos:
+    */
+
+
+    //clase 26/4 abajo
+    let peso;
+    let altura;
+    peso = prompt("Ingrese su peso")
+    altura = prompt("Ingrese su altura")
+
+    IMC = peso / (altura*altura)
+
+    if(IMC < 19.5){
+        document.write("Tu clasificacion IMC es bajo peso")
+    }else if(18.5 <= IMC <= 24.99){
+            document.write("Tu clasificacion IMC es peso normal");
+    }else if(25 <= IMC < 30){
+            document.write("Tu clasificacion IMC es sobre peso");
+    }else{
+        document.write("Tu clasificacion IMC es obeso");
+    }
+
+    //calc de + - * /
+    // usuario selec operacion
+    //no se puede dividir por cero
+
+    let numero1;
+    let numero2;
+    numero1 = prompt("Ingrese un numero")
+    numero2 = prompt("Ingrese otro numero")
+    operacion = prompt("Ingrese una operacion")
+    
+
+
+
+    </script>
+    
+</body>
+</html>

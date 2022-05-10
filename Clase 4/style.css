@@ -16,7 +16,7 @@ h1{color: red;}
     right: 20px;
 }
 
-#col-izq{
+/*#col-izq{
     width: 50%;
     float: left;
 }
@@ -24,7 +24,7 @@ h1{color: red;}
 #col-der{
     width: 50%;
     float: right;
-}
+}*/
 
 footer{
     position: fixed;

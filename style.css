@@ -1,4 +1,8 @@
-h1{color: red;}
+body{background-color: rgb(255, 199, 162);}
+h1{color: red;
+    text-align: center;
+}
+
 /*esto es un comentario */
 /*esto es un
 *comentario
@@ -10,23 +14,21 @@ h1{color: red;}
 
 /*body{background-color: white;}*/
 
-#icono-contacto{
-    position: fixed;
-    bottom: 30px;
-    right: 20px;
-}
-
-#col-izq{
-    width: 50%;
-    float: left;
-}
-
-#col-der{
-    width: 50%;
-    float: right;
-}
-
-footer{
+.footer{
     position: fixed;
     bottom: 0px;
 }
+
+.row {
+    display: flex;
+  }
+  
+.column { 
+    flex: 50%;
+  }
+
+.col{border:2px solid black;
+    width: 50%;
+}
+
+.navbar-expand{-sm|-md|-lg|-xl}
