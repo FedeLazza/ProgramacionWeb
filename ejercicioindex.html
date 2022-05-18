@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esto es un TITULO</title>
+</head>
+<body>
+    <script src="ejerciciomain.js"></script>
+    <h1>Ejercicio clase 17/5</h1>
+    <p>1) Crear una web nueva con la estructura basica <br>
+        2) Enlazarla a JavaScript<br>
+        3) Crear un formulario de registro<br>
+        4) Preguntar si la edad es mayor a 18, en caso contrario, indicarle al usuario que no se puede registrar<br>
+        5) Obligar al usuario a estar de acuerdo con terminos y condiciones<br>
+        6) Mostrarle al usuarios en un parrafo, los datos que ingreso</p>
+
+    <h1>Ingrese sus datos</h1>
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        
+        <p>Es mayor de 18 anios de edad?</p>
+        <input type="radio" id="edad" name="mayoria_edad" value="Si">
+        <label for="mayor">Si</label><br>
+        <input type="radio" id="edad" name="mayoria_edad" value="No">
+        <label for="menor">No</label><br>
+
+        <input type="checkbox" name="bases" id="bases"><label for="bases">He leido y acepto las </label><a href="#">Bases y Condiciones</a><br>
+        <input type="button" value="Enviar">
+
+    </form>
+
+</body>
+</html>

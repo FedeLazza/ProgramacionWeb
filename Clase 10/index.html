@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de DOM</title>
+    <!-- DOM Modelo Objetos del Documento -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <div id="primera-parte">
+            <h1>El titular</h1>
+            <p>Este texto es <strong> negrita </strong></p>
+            <!-- p - "Este texto es"  - strong - negrita  -->
+        </div>
+        <div id="segunda-parte">
+            <p id="pConId">Id</p>
+            <p class="pConClase">Class</p>
+            <p>Tag</p>
+        </div>
+        <div>
+            <h1 id="titular"> Web titular</h1>
+            <input type="button" onclick="cambiarTitular()" value="Cambiar texto">
+        </div>
+        <input type="button" onclick="hacerAparecer()" value="Revelar información">
+        <div id ="vacio">
+        </div>
+    </main>
+        <ul>
+            <li class="paises">ar</li>
+            <li class="paises">ur</li>
+            <li class="paises">cl</li>
+        </ul>
+        <input type="button" value="Borrar pais" onclick="borrarPais()">
+        <form action="">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre"> <br>
+            <label for="edad" >Edad: </label>
+            <input type="number" id="edad">
+            <input type="button" value="Sumar edad" onclick="sumarEdad()">
+            
+            <input type="checkbox" name="bases" id="bases"><label for="bases">Comprendio bases y condiciones</label>
+        </form>
+    <footer></footer>
+</body>
+<script>
+    console.log("Soy interno")    
+</script>
+
+<script src="main.js"></script> 
+
+</html>
+
+<!--document-->
+<!--document.body-->
