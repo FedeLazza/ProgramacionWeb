@@ -8,12 +8,18 @@
 */
 
 function chequear(){
-    //let edadUsuario = document.getElementById("")
+    let edadUsuario = document.getElementById("edad").value
+    let sino = "Si"
+    if(edadUsuario!= true){
+        alert("No se puede registrar siendo menor de edad")
+        sino = "No"
+    }
+    let nombreUsuario = document.getElementById("nombre").value
     let basesCond = document.getElementById("bases").checked
     if(basesCond!= true){
         alert("Debe aceptar las bases y condiciones")
     }
-    
+    document.body.append(`Su nombre es ${nombreUsuario} y ${sino} es mayor de edad. `)
 }
 
 

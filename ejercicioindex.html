@@ -21,14 +21,16 @@
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre">
         
-        <p>Es mayor de 18 anios de edad?</p>
+        <p>Es mayor de 18 años de edad?</p>
         <input type="radio" id="edad" name="mayoria_edad" value="Si">
-        <label for="mayor">Si</label><br>
-        <input type="radio" id="edad" name="mayoria_edad" value="No">
-        <label for="menor">No</label><br>
-
+        <label for="mayor">Si</label>
+        <br>
+        <input type="radio" id="pija" name="mayoria_edad" value="No">
+        <label for="menor">No</label>
+        <br>
+        
         <input type="checkbox" name="bases" id="bases"><label for="bases">He leido y acepto las </label><a href="#">Bases y Condiciones</a><br>
-        <input type="button" value="Enviar">
+        <input type="button" value="Enviar" onclick="chequear()">
 
     </form>
 
