@@ -1,0 +1,34 @@
+body{background-color: rgb(255, 199, 162);}
+h1{color: red;
+    text-align: center;
+}
+
+/*esto es un comentario */
+/*esto es un
+*comentario
+*multilineal
+*/
+
+/*buscar una buena paleta de colores en "https://colorhunt.co/palettes"*/
+
+
+/*body{background-color: white;}*/
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+}
+
+.row {
+    display: flex;
+  }
+  
+.column { 
+    flex: 50%;
+  }
+
+.col{border:2px solid black;
+    width: 50%;
+}
+
+.navbar-expand{-sm|-md|-lg|-xl}
