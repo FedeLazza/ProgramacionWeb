@@ -1,5 +1,5 @@
-body{background-color: rgb(255, 199, 162);}
-h1{color: red;
+body{background-color: rgb(168,169,173);}
+h1{color: black;
     text-align: center;
 }
 
@@ -9,7 +9,8 @@ h1{color: red;
 *multilineal
 */
 
-/*buscar una buena paleta de colores en "https://colorhunt.co/palettes"*/
+/*buscar una buena paleta de colores en "https://colorhunt.co/palettes"
+https://colorhunt.co/palette/e8f9fd79dae80aa1dd2155cd*/
 
 
 /*body{background-color: white;}*/
@@ -32,3 +33,4 @@ h1{color: red;
 }
 
 .navbar-expand{-sm|-md|-lg|-xl}
+
