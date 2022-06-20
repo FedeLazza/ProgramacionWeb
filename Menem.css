@@ -13,11 +13,12 @@ h1{color: black;
 https://colorhunt.co/palette/e8f9fd79dae80aa1dd2155cd*/
 
 
-/*body{background-color: white;}*/
-
 .footer{
     position: fixed;
     bottom: 0px;
+}
+.footerblanco{
+  color: white;
 }
 
 .row {
