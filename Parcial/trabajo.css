@@ -1,11 +1,20 @@
-body{background-color: rgb(168,169,173);}
+body{background-color: rgb(168,169,173);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1,
+h5,
+p,
+a {
+    text-align: center;
+}
 
 /*Banner*/
 .bannerCentrado {
     position: relative;
     text-align: center;
     color: black;
-    font-family: "Times New Roman", Times, serif;
 }
 
 .bannerTitulo {
@@ -24,7 +33,6 @@ body{background-color: rgb(168,169,173);}
     background-position: center;
     background-size: cover;
     margin: auto;
-    /*background-image: url("CarouselBackground.jpg");*/
 }
 
 .carousel-caption {
@@ -32,6 +40,7 @@ body{background-color: rgb(168,169,173);}
     bottom: 0;
     padding-bottom: 0;
 }
+
 .carousel-control-prev, .carousel-control-next {
     filter: invert(100%);
 }
@@ -39,15 +48,6 @@ body{background-color: rgb(168,169,173);}
 .carousel-indicators {
     filter: invert(100%);
 }
-
-/*----------*/
-h1 {
-    text-align: center;
-}
-h3 {
-    text-align: center;
-}
-/*----------*/
 
 /*DiseñosRemeras*/
 .card {
@@ -79,26 +79,26 @@ h3 {
     opacity: 0.7;
 }
 
-/* Float four columns side by side */
 .column {
     float: left;
     width: 25%;
     padding: 0 10px;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Columnas Responsive - vertical en smartphones */
 @media screen and (max-width: 600px) {
 .column {
       width: 100%;
       display: block;
       margin-bottom: 20px;
+}
+.row {
+    flex-direction: column-reverse;
 }
 }
 
@@ -118,4 +118,79 @@ h3 {
 footer{
     background-color: black;
     color: white;
+}
+
+/*Pedidos------------------------------------------------------*/
+* {
+    box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.instagram {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }
